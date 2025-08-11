@@ -5,6 +5,7 @@ title: ""
 pagination: false
 ---
 
+## Posts
 
 {%- comment -%} 1) Buscar por categoría 'Presentación' (con y sin tilde) {%- endcomment -%}
 {% assign featured_post = site.posts | where_exp: "p", "p.categories contains 'Presentación'" | first %}
