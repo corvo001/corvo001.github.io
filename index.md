@@ -7,18 +7,22 @@ pagination: false
 
 ## Posts
 
-{%- comment -%}
-Primero intentamos por slug fijo (recomendado).
-Si no lo encuentra, hacemos fallback por título.
-{%- endcomment -%}
-{% assign featured_post = site.posts | where: "slug", "presentacion-del-portafolio-de-cuervo" | first %}
+{%- comment -%} 1) Intento robusto: por ruta (substring del nombre del archivo) {%- endcomment -%}
+{% assign featured_post = site.posts | where_exp: "p", "p.path contains 'presentacion'" | first %}
+
+{%- comment -%} 2) Fallback por slug fijo {%- endcomment -%}
+{% if featured_post == nil %}
+  {% assign featured_post = site.posts | where: "slug", "presentacion-del-portafolio-de-cuervo" | first %}
+{% endif %}
+
+{%- comment -%} 3) Fallback por título exacto {%- endcomment -%}
+{% if featured_post == nil %}
+  {% assign featured_post = site.posts | where: "title", "Presentación del Portafolio de Cuervo" | first %}
+{% endif %}
+
 {% if featured_post %}
   {% include archive-single.html post=featured_post type="list" %}
 {% else %}
-  {% assign featured_post = site.posts | where: "title", "Presentación del Portafolio de Cuervo" | first %}
-  {% if featured_post %}
-    {% include archive-single.html post=featured_post type="list" %}
-  {% else %}
-    <p>No se encontró el post de presentación.</p>
-  {% endif %}
+  <p>No se encontró el post de presentación.</p>
 {% endif %}
+
