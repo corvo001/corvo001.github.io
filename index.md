@@ -5,10 +5,12 @@ title: ""
 pagination: false
 ---
 
-## Posts
 
-{%- comment -%} 1) Intento robusto: por ruta (substring del nombre del archivo) {%- endcomment -%}
-{% assign featured_post = site.posts | where_exp: "p", "p.path contains 'presentacion'" | first %}
+{%- comment -%} 1) Buscar por categoría 'Presentación' (con y sin tilde) {%- endcomment -%}
+{% assign featured_post = site.posts | where_exp: "p", "p.categories contains 'Presentación'" | first %}
+{% if featured_post == nil %}
+  {% assign featured_post = site.posts | where_exp: "p", "p.categories contains 'Presentacion'" | first %}
+{% endif %}
 
 {%- comment -%} 2) Fallback por slug fijo {%- endcomment -%}
 {% if featured_post == nil %}
@@ -25,4 +27,3 @@ pagination: false
 {% else %}
   <p>No se encontró el post de presentación.</p>
 {% endif %}
-
