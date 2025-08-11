@@ -1,52 +1,75 @@
-// Importa estilos base del tema Minimal Mistakes
-@import "minimal-mistakes/skins/default"; // Skin por defecto
-@import "minimal-mistakes";               // Estilos base
+---
+---
 
-// Fondo blanco y tipografía Times New Roman
-html, body, * {
-  font-family: "Times New Roman", Times, serif !important;
-  background-color: #ffffff !important;
-  color: #000000 !important;
+/* Tema base Minimal Mistakes (skin clara por defecto) */
+@import "minimal-mistakes";
+
+/* ========= Tipografía y colores globales ========= */
+/* Aplica Times New Roman a contenido, sin tocar las fuentes de iconos */
+body,
+p, h1, h2, h3, h4, h5, h6,
+li, a, blockquote, code, pre,
+td, th, span, strong, em, small {
+  font-family: "Times New Roman", Times, serif;
+  color: #000;                  /* texto negro */
 }
 
-// Quitar hero/banner negro de la portada
-.page__hero {
-  display: none !important;
+body {
+  background: #fff;             /* fondo blanco */
 }
 
-// Quitar avatar del autor
-.author__avatar {
-  display: none !important;
-}
-
-// Ajustar área de autor para que se vea limpio
-.author__content {
-  padding-top: 0 !important;
-}
-
-// Logo en la barra de navegación
-.site-logo img {
-  height: 45px !important; /* Ajusta tamaño a tu gusto */
-}
-
-// Quitar bordes y sombras innecesarias
-.site-header, .page__content, .site-footer {
-  box-shadow: none !important;
-  border: none !important;
-}
-
-// Enlaces más sobrios
+/* Enlaces sobrios (negro con subrayado sutil) */
 a, a:visited {
-  color: #000000 !important;
+  color: #0a0a0a;
   text-decoration: underline;
+  text-underline-offset: 2px;
+}
+a:hover { opacity: .85; }
+
+/* ========= Cabecera / navegación ========= */
+.masthead,
+.masthead__inner-wrap {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  box-shadow: none;
 }
 
-a:hover {
-  color: #444444 !important;
+/* Logo en barra (ajusta altura si lo necesitas) */
+.site-logo img {
+  height: 40px;
 }
 
-// Ajuste de ancho de texto para mayor legibilidad
+/* ========= Sidebar autor (limpio, sin avatar) ========= */
+.author__avatar { display: none; }
+.author__bio    { color: #555; }
+.author__content { padding-top: 0; }
+
+/* Quita líneas divisorias fuertes en la lista de enlaces del autor */
+.author__urls li { border-color: #eee; }
+
+/* ========= Área de contenido ========= */
 .page__content {
-  max-width: 900px;
-  margin: auto;
+  max-width: 900px;    /* legibilidad */
+  margin: 0 auto;
 }
+
+/* Listados/archivos */
+.archive {
+  color: #000;
+}
+
+/* ========= Hero/portada ========= */
+/* Mantén el hero si lo usas en index.md; el texto en blanco sobre banner oscuro */
+.page__hero--overlay { background-position: center; background-size: cover; }
+.page__title, .page__lead, .page__hero-caption { color: #fff; }
+
+/* ========= Tablas, bloques de código, detalles ========= */
+table { border-color: #e6e6e6; }
+code, pre  { background: #fafafa; border-color: #eee; }
+
+/* ========= Footer ========= */
+.page__footer { background: #fff; border-top: 1px solid #eee; color: #666; }
+
+/* ========= No forzar fuentes de iconos ========= */
+/* Asegura que Font Awesome mantenga su propia tipografía */
+.fab, .fas, .far, .fa { font-family: "Font Awesome 5 Free","Font Awesome 5 Brands" !important; }
