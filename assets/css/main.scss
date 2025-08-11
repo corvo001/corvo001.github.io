@@ -71,3 +71,9 @@ code, pre { background: #fafafa; border-color: #eee; }
 .fab, .fas, .far, .fa { 
   font-family: "Font Awesome 5 Free","Font Awesome 5 Brands" !important; 
 }
+
+.page__footer .pagination,
+.pagination {
+  display: none !important;
+}
+
