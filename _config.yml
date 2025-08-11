@@ -15,6 +15,7 @@ locale: "es-ES"
 
 # Logo en la barra superior (cambiar ruta según dónde lo guardes)
 logo: "/assets/images/logo.png"
+masthead_title: ""     # oculta el texto junto al logo
 
 # Desactivar foto/avatar lateral
 author:
