@@ -1,8 +1,15 @@
 ---
-layout: post
+layout: single
 title: "UNION – Creador y Analizador de Formas Fractales"
+excerpt: "Motor experimental para generación y análisis de formas fractales en tiempo real."
 date: 2025-08-11
-categories: proyectos
+categories:
+  - Proyectos
+tags:
+  - fractales
+  - arte generativo
+  - software
+  - análisis
 ---
 
 **UNION** es un motor experimental que combina generación y análisis de formas basadas en fractales, diseñado para explorar la geometría compleja y sus posibles aplicaciones científicas, artísticas y tecnológicas.
@@ -16,16 +23,12 @@ El sistema permite manipular en tiempo real múltiples parámetros fractales, co
 - Sistema de captura integrado para guardar patrones.
 - Posibilidad de retroalimentación visual y experimentación interactiva.
 
----
-
 ## Galería de capturas
 
 ![Vista principal](/assets/img/union/Imagen-del-proyecto.png)
 ![Fractal tipo Julia](/assets/img/union/capture_144410.png)
 ![Forma fractal personalizada](/assets/img/union/capture_144459.png)
 ![Variación morfológica](/assets/img/union/capture_144414.png)
-
----
 
 Este proyecto forma parte de mi investigación en **integración de software, arte generativo y análisis matemático**.  
 La meta es que UNION se convierta en una herramienta capaz no solo de crear fractales complejos, sino también de extraer información significativa de ellos para su uso en investigación científica y prototipado visual.
