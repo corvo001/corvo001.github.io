@@ -1,7 +1,9 @@
 ---
 layout: single
 title: "Sobre mí"
-author_profile: true
+permalink: /sobre-mi/
+author_profile: false
+pagination: false
 ---
 
 ![Cuervo](/assets/images/cuervo.jpg){: .align-right width="260" }
