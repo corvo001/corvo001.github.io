@@ -1,0 +1,28 @@
+---
+---
+
+@import "minimal-mistakes"; // skin clara por defecto
+
+/* Tipografía global */
+html, body, * { font-family: "Times New Roman", Times, serif !important; }
+
+/* Colores base claros */
+body { background:#fff; color:#111; }
+a { text-decoration:none; border-bottom:1px solid rgba(0,0,0,.15); }
+a:hover { border-bottom-color:#111; }
+
+/* Cabecera y navegación */
+.masthead, .masthead__inner-wrap { background:#fff; border-bottom:1px solid #eee; }
+.site-logo img { height:28px; }  /* tamaño del logo en barra */
+
+/* Sidebar autor limpio (sin avatar) */
+.author__avatar { display:none; }
+.author__bio { color:#555; }
+
+/* Área de página y listados */
+.page, .archive { color:#111; }
+.page__content h1, h2, h3 { font-weight:700; }
+
+/* Hero/portada: texto legible sobre banner oscuro */
+.page__hero--overlay { background-position:center; background-size:cover; }
+.page__hero-caption, .page__lead, .page__title { color:#fff; }
