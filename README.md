@@ -1,34 +1,39 @@
+# 🌐 Portafolio Profesional de Cuervo
 
-# Portafolio de Cuervo (Jekyll + GitHub Pages)
+Bienvenido a mi portafolio online, un espacio donde presento mi trabajo, proyectos y experiencia en **robótica**, **software**, **física aplicada** y **neurociencia**.  
+Este sitio está diseñado para mostrar no solo mis habilidades técnicas, sino también mi capacidad para integrar diferentes disciplinas y transformar ideas en **prototipos funcionales**.
 
-Portafolio técnico gratuito alojado en GitHub Pages usando el tema **Minimal Mistakes**.
+## 💡 Objetivo del portafolio
+Este sitio web funciona como mi **carta de presentación profesional**. Aquí muestro:
+- **Proyectos destacados** en ingeniería y tecnología.
+- **Prototipos funcionales** desarrollados desde cero.
+- **Investigación y experimentos** en neurociencia aplicada.
+- Mi enfoque y filosofía de trabajo.
 
-## Despliegue rápido
+Es un espacio pensado para que posibles colaboradores, empresas o reclutadores puedan conocer de forma clara quién soy y qué puedo aportar.
 
-1. Crea un repo llamado `USERNAME.github.io` en tu cuenta de GitHub.
-2. Sube todos los archivos de esta carpeta al repo.
-3. Edita `_config.yml` y reemplaza `USERNAME` por tu usuario de GitHub y tu email.
-4. En GitHub, ve a **Settings → Pages** y asegúrate de que la rama `main` está publicada.
-5. Espera 1–2 minutos y abre `https://USERNAME.github.io`.
+## 📂 Contenido
+En este portafolio encontrarás:
+- **Inicio:** Resumen de mi perfil y áreas de trabajo.
+- **Proyectos:** Detalles técnicos y visuales de mis creaciones.
+- **Sobre mí:** Trayectoria, formación y visión profesional.
+- **Contacto:** Formas de colaboración y conexión directa.
 
-## Estructura
-- `_pages/`: páginas (Proyectos, Sobre mí, Contacto)
-- `_posts/`: proyectos como posts (ejemplo incluido)
-- `_data/navigation.yml`: navegación principal
-- `assets/images/`: imágenes del sitio
-- `_config.yml`: configuración del sitio y del tema
+## 🔧 Tecnologías
+Este sitio está desarrollado con:
+- [Jekyll](https://jekyllrb.com/) y el tema [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)
+- GitHub Pages para su publicación
+- HTML, SCSS y Markdown
 
-## Añadir proyectos
-Crea archivos en `_posts/` con nombre `YYYY-MM-DD-titulo.md`. Usa el front matter del ejemplo.
+## 📍 Enlace
+Puedes visitar mi portafolio aquí:  
+**➡ [https://corvo001.github.io](https://corvo001.github.io)**
 
-## Desarrollo local (opcional)
-Requiere Ruby:
-```bash
-gem install bundler
-bundle install
-bundle exec jekyll serve
-```
-Luego abre `http://127.0.0.1:4000`.
+## 🤝 Colaboraciones
+Estoy abierto a:
+- Proyectos de investigación y desarrollo
+- Colaboraciones tecnológicas
+- Consultoría técnica y prototipado rápido
 
-## Licencia
-Tu contenido es tuyo. El tema Minimal Mistakes se usa bajo su licencia.
+Si tienes una idea y quieres llevarla a la realidad, este portafolio es una muestra de lo que puedo hacer.  
+Puedes contactarme directamente a través de [LinkedIn](https://www.linkedin.com/in/danielcuervor/) o por correo en **danielcuervor01@gmail.com**.
