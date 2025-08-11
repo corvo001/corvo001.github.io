@@ -3,7 +3,7 @@ layout: single
 title: "Presentación del Portafolio"
 excerpt: "Un espacio donde convergen la ciencia, el desarrollo de software y la creación de prototipos funcionales."
 date: 2025-08-11
-slug: presentacion-del-portafolio-de-cuervo
+slug: presentacion-del-portafolio
 permalink: /presentacion-portafolio/
 categories: [Presentación]
 tags: [portafolio, ciencia, software, proyectos]
