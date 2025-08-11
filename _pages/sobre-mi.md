@@ -5,7 +5,7 @@ layout: single
 author_profile: false
 ---
 
-![Cuervo](/assets/images/sobre-mi.jpg){: .align-right width="260" }
+![Cuervo](/assets/images/cuervo.jpg){: .align-right width="260" }
 
 Soy **Cuervo**. Integro **software**, **ciencia** y **prototipado** para convertir ideas en sistemas funcionales.  
 Trabajo en la intersección entre **algoritmos**, **visualización fractal**, **robótica/instrumentación** y **neurociencia aplicada**.
