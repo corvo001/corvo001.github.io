@@ -2,7 +2,9 @@
 title: "Proyectos"
 permalink: /proyectos/
 layout: category
-taxonomy: Proyectos        # Muestra solo posts con categoría "Proyectos"
-entries_layout: grid       # Tarjetas en cuadrícula
-author_profile: false
+taxonomy: Proyectos
+entries_layout: list     # ← en vez de grid
+show_excerpts: true
+classes: wide            # ← ancho cómodo
+pagination: false
 ---
