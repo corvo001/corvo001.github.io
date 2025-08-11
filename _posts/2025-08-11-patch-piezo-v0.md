@@ -1,10 +1,10 @@
-
 ---
+layout: single
 title: "Patch piezoeléctrico v0 para neuromodulación con LIFU"
 date: 2025-08-11
-categories: proyecto
-tags: [neuromodulación, ultrasonidos, piezoeléctrico, EEG, MATLAB, Arduino]
-excerpt: "Prototipo inicial de membrana PVDF-TrFE acoplada a MEA con estimulación LIFU y adquisición de señales."
+categories: [proyectos]
+tags: [neuromodulacion, ultrasonidos, piezoelectrico, EEG, MATLAB, Arduino]
+excerpt: "Prototipo PVDF-TrFE + MEA con LIFU; adquisición y seguridad térmica."
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
