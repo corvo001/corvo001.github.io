@@ -1,6 +1,6 @@
 #  Portafolio Profesional
 
-Bienvenido a mi portafolio online, un espacio donde presento mi trabajo, proyectos y experiencia en **robótica**, **software**, **física aplicada** y **neurociencia**.  
+Bienvenido a mi portafolio online, un espacio donde presento mi trabajo, proyectos y experiencia en  **software** y **ciencia**.  
 Este sitio está diseñado para mostrar no solo mis habilidades técnicas, sino también mi capacidad para integrar diferentes disciplinas y transformar ideas en **prototipos funcionales**.
 
 ##  Objetivo del portafolio
