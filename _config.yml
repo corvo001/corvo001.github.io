@@ -14,7 +14,7 @@ minimal_mistakes_skin: "default"
 locale: "es-ES"
 
 # Logo en la barra superior (cambiar ruta según dónde lo guardes)
-logo: "/assets/images/logo.png"
+logo: "/assets/images/logo-white.png?v=2"
 masthead_title: ""     # oculta el texto junto al logo
 
 # Desactivar foto/avatar lateral
