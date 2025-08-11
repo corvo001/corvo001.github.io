@@ -9,7 +9,6 @@ tags:
   - portafolio
   - ciencia
   - software
-  - proyectos
   
 ---
 
