@@ -20,6 +20,6 @@ Aquí encontrarás:
 
 Mi objetivo es ofrecer soluciones innovadoras que integren conocimiento técnico y visión científica, siempre buscando que la tecnología se ponga al servicio de las personas.
 
-Si quieres colaborar, proponer un proyecto o simplemente intercambiar ideas, puedes contactar conmigo a través de los enlaces que encontrarás en la barra lateral.
+Si quieres colaborar, proponer un proyecto o simplemente intercambiar ideas, puedes contactar conmigo a través de los enlaces del portafolio.
 
 **De la idea al prototipo.**
