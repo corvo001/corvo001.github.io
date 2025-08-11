@@ -3,6 +3,8 @@ title: "Contacto"
 permalink: /contacto/
 layout: single
 author_profile: false
+related: false
+pagination: false
 ---
 
 - 🇪🇸 **Ubicación**: España  
