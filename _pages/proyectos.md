@@ -1,9 +1,8 @@
-
 ---
 title: "Proyectos"
 permalink: /proyectos/
-layout: posts
-author_profile: true
+layout: category
+taxonomy: Proyectos        # Muestra solo posts con categoría "Proyectos"
+entries_layout: grid       # Tarjetas en cuadrícula
+author_profile: false
 ---
-
-A continuación, una selección curada de proyectos. Cada entrada incluye problema, solución, tecnología, proceso, resultados y siguientes pasos.

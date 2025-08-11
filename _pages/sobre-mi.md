@@ -1,19 +1,23 @@
-
 ---
 title: "Sobre mí"
 permalink: /sobre-mi/
 layout: single
-author_profile: true
+author_profile: false
 ---
 
-Soy Cuervo. Combino **Automatización y Robótica**, **Desarrollo de Software**, **Física** y **Neurociencia** para crear tecnología desde el concepto hasta el prototipo funcional.
+![Cuervo](/assets/images/sobre-mi.jpg){: .align-right width="260" }
 
-**Especialidades**
-- Robótica y control (PLCs, microcontroladores, Arduino/ESP32/STM32)
-- Desarrollo de software (C/C++, Python, MATLAB, Julia, Rust)
-- Diseño y fabricación (CAD, impresión 3D, CNC, láser)
-- Señales e instrumentación (EEG/MEA, ultrasonidos, sensores)
-- Visualización y gráficos científicos
+Soy **Cuervo**. Integro **software**, **ciencia** y **prototipado** para convertir ideas en sistemas funcionales.  
+Trabajo en la intersección entre **algoritmos**, **visualización fractal**, **robótica/instrumentación** y **neurociencia aplicada**.
 
-**Propuesta**
-Diseño sistemas integrales hardware+software con base científica y documentación rigurosa.
+**Foco actual**
+- Motores gráficos y **arte generativo fractal** (proyecto UNION).
+- **Prototipos hardware** y herramientas para I+D.
+- Documentación técnica clara y reproducible.
+
+**Habilidades clave**
+- C/C++/Python, OpenGL, procesamiento de señales.
+- CAD/Fabricación digital (impresión 3D, CNC).
+- Diseño experimental y análisis de datos.
+
+¿Colaboramos? Escríbeme desde la página de **Contacto**.

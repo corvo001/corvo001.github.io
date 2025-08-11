@@ -1,4 +1,3 @@
-
 ---
 title: "Contacto"
 permalink: /contacto/
@@ -6,8 +5,10 @@ layout: single
 author_profile: false
 ---
 
-- Email: <your.email@example.com>  
-- GitHub: [github.com/USERNAME](https://github.com/USERNAME)  
-- LinkedIn: [linkedin.com/in/USERNAME](https://www.linkedin.com/in/USERNAME/)  
+- 🇪🇸 **Ubicación**: España  
+- 🐙 **GitHub**: [github.com/corvo001](https://github.com/corvo001)  
+- 🔗 **LinkedIn**: [linkedin.com/in/danielcuervor](https://www.linkedin.com/in/danielcuervor/)  
+- ✉️ **Email**: <danielcuervor01@gmail.com>  
+  - Enlace directo: [Enviar correo](mailto:danielcuervor01@gmail.com?subject=Contacto%20desde%20el%20portafolio&body=Hola%20Cuervo%2C%0A%0Ate%20escribo%20por%20...%0A)
 
-¿Colaboramos? Estoy abierto a proyectos de I+D, prototipado rápido y consultoría técnica.
+> Si prefieres, cambia el asunto y el cuerpo del `mailto:` a tu gusto.
