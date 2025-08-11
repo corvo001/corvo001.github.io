@@ -57,13 +57,14 @@ defaults:
       layout: single
       author_profile: false # avatar desactivado
 
-
+future: true
 sass:
   sass_dir: _sass
   style: compressed
 
 # Asegúrate de incluir tu CSS
 minimal_mistakes_skin: default
+
 
 
 include:
