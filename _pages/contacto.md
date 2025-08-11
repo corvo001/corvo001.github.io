@@ -7,7 +7,7 @@ related: false
 pagination: false
 ---
 
-- 🇪🇸 **Ubicación**: España  
+-  **Ubicación**: España  
 -  **GitHub**: [github.com/corvo001](https://github.com/corvo001)  
 -  **LinkedIn**: [linkedin.com/in/danielcuervor](https://www.linkedin.com/in/danielcuervor/)  
 -  **Email**: <danielcuervor01@gmail.com>  
