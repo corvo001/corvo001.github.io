@@ -1,5 +1,5 @@
 main:
-  - title: "Inicio"
+  - title: ""
     url: /
   - title: "Proyectos"
     url: /proyectos/
