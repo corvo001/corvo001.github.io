@@ -60,3 +60,8 @@ include:
   - _pages
 
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
