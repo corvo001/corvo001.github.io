@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Presentación del Portafolio de Cuervo"
+title: "Presentación del Portafolio"
 excerpt: "Un espacio donde convergen la ciencia, el desarrollo de software y la creación de prototipos funcionales."
 date: 2025-08-11
 slug: presentacion-del-portafolio-de-cuervo
@@ -22,4 +22,4 @@ Mi objetivo es ofrecer soluciones innovadoras que integren conocimiento técnico
 
 Si quieres colaborar, proponer un proyecto o simplemente intercambiar ideas, puedes contactar conmigo a través de los enlaces que encontrarás en la barra lateral.
 
-**De la idea al prototipo. Bienvenido a mi mundo.**
+**De la idea al prototipo.**
