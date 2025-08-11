@@ -8,5 +8,3 @@ header:
   overlay_filter: "0.3"
   overlay_image: /assets/images/header.jpg
 ---
-
-Bienvenido. Aquí documento proyectos de I+D y prototipado, con foco en automatización, robótica, neurotecnología y visualización fractal.
