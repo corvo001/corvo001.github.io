@@ -1,28 +1,52 @@
----
----
+// Importa estilos base del tema Minimal Mistakes
+@import "minimal-mistakes/skins/default"; // Skin por defecto
+@import "minimal-mistakes";               // Estilos base
 
-@import "minimal-mistakes"; // skin clara por defecto
+// Fondo blanco y tipografía Times New Roman
+html, body, * {
+  font-family: "Times New Roman", Times, serif !important;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
 
-/* Tipografía global */
-html, body, * { font-family: "Times New Roman", Times, serif !important; }
+// Quitar hero/banner negro de la portada
+.page__hero {
+  display: none !important;
+}
 
-/* Colores base claros */
-body { background:#fff; color:#111; }
-a { text-decoration:none; border-bottom:1px solid rgba(0,0,0,.15); }
-a:hover { border-bottom-color:#111; }
+// Quitar avatar del autor
+.author__avatar {
+  display: none !important;
+}
 
-/* Cabecera y navegación */
-.masthead, .masthead__inner-wrap { background:#fff; border-bottom:1px solid #eee; }
-.site-logo img { height:28px; }  /* tamaño del logo en barra */
+// Ajustar área de autor para que se vea limpio
+.author__content {
+  padding-top: 0 !important;
+}
 
-/* Sidebar autor limpio (sin avatar) */
-.author__avatar { display:none; }
-.author__bio { color:#555; }
+// Logo en la barra de navegación
+.site-logo img {
+  height: 45px !important; /* Ajusta tamaño a tu gusto */
+}
 
-/* Área de página y listados */
-.page, .archive { color:#111; }
-.page__content h1, h2, h3 { font-weight:700; }
+// Quitar bordes y sombras innecesarias
+.site-header, .page__content, .site-footer {
+  box-shadow: none !important;
+  border: none !important;
+}
 
-/* Hero/portada: texto legible sobre banner oscuro */
-.page__hero--overlay { background-position:center; background-size:cover; }
-.page__hero-caption, .page__lead, .page__title { color:#fff; }
+// Enlaces más sobrios
+a, a:visited {
+  color: #000000 !important;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #444444 !important;
+}
+
+// Ajuste de ancho de texto para mayor legibilidad
+.page__content {
+  max-width: 900px;
+  margin: auto;
+}
