@@ -22,7 +22,6 @@ author:
   name: "Cuervo"
   avatar: "" # vacío para que no muestre nada
   bio: "" # sin bio lateral
-  location: "España"
   links: 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
