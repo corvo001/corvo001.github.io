@@ -2,8 +2,6 @@
 layout: single
 title: "Sobre mí"
 author_profile: true
-related: false
-pagination: false
 ---
 
 ![Cuervo](/assets/images/cuervo.jpg){: .align-right width="260" }
