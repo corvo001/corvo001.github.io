@@ -5,7 +5,7 @@ title: ""
 pagination: false
 ---
 
-## Posts
+## Post
 
 - [**Presentación del Portafolio de Cuervo**](/presentacion-portafolio/)
   <br>
