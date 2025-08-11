@@ -11,6 +11,7 @@ pagination: false
 Soy **Cuervo**. Integro **software** y **ciencia** para convertir ideas en sistemas funcionales.  
 Trabajo en la intersección entre **algoritmos** y **visualización fractal**.
 
+
 **Foco actual**
 - Motores gráficos y **arte generativo fractal** (proyecto UNION).
 - **Prototipos hardware** y herramientas para I+D.
