@@ -3,6 +3,7 @@ layout: single
 title: "UNION – Creador y Analizador de Formas Fractales"
 excerpt: "Motor experimental para generación y análisis de formas fractales en tiempo real."
 date: 2025-08-11
+show_on_home: false
 categories:
   - Proyectos
 tags:
