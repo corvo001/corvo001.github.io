@@ -6,7 +6,7 @@ author_profile: false
 pagination: false
 ---
 
-![Cuervo](/assets/images/cuervo.jpg){: .align-right width="260" }
+![Cuervo](/assets/images/cuervo.jpg){: .align-left width="260" }
 
 Soy **Cuervo**. Integro **software** y **ciencia** para convertir ideas en sistemas funcionales.  
 Trabajo en la intersección entre **algoritmos** y **visualización fractal**.
