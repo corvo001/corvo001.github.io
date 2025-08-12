@@ -1,10 +1,12 @@
 ---
-layout: splash
+layout: home
+author_profile: true
+title: "Portafolio"
+excerpt: "Integración de software y ciencia. De la idea al prototipo funcional."
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/tu_fondo.jpg
-  caption: "Texto de bienvenida"
+  overlay_filter: "0.25"
+  overlay_image: /assets/images/header.png   # tu banner
 ---
 
 ## Post
